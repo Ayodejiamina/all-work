@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+
+.logo-sec{
+    background-color: black;
+    border-radius: 15%;
+    color: antiquewhite;
+    overflow: hidden;
+    display:inline-block 
+    width:100%;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+.nav-logo{float: left;
+
+}
+
+.nav-logo h1 {
+    padding: 5px;
+}
+ul{float: right;
+}
+ul li{
+    display: inline-block;
+    padding: 5px 25px 5px;
+    overflow: hidden;
+}
+ul li a{
+    text-decoration: none;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color:white
+}
+a:hover{
+    color:yellow
+}
+a:active{
+    color:orchid
+}
+.text-img{
+    clear: both;
+    background-image:url(../images/ocean2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    height: 500px;
+    width: 100%;
+}
+.text{
+    position:absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+.text h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif ;
+    ;
+}
+.sec2{
+    background-color: beige;
+    position: relative;
+    /* margin: 30px; */
+    /* background-size: contain; */
+    width: 40%;
+    padding:9px;
+    /* z-index: 1; */
+}
+div h1{
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.abt{
+    padding-top: 6px;
+    float: left;
+    margin: 40px;
+    /* font-size: 20px; */
+}
+.image{
+    float: left;
+}
+
+.myself{
+    padding-bottom: 10%;
+    float:left;
+
+}
+.section3{
+    position: relative;
+}
+.desktop{
+    font-size: 60px;
+    text-align:center;
+}
+.icon1{
+    background-color:coral;
+    border: 1px solid black;
+    height:300px;
+    width:25%;
+    border-radius: 10%;
+    margin: 40px;
+    padding: 10px;
+    float: left;
+    
+}
+.icon1:hover{ 
+    background-color:grey;
+}
+.node{
+    font-size: 60px;
+    text-align: center;
+}
+.icon2{
+    background-color: coral;
+    border: 1px solid black;
+    height:300px;
+    width:25%;
+    border-radius: 10%;
+    margin: 40px;
+    padding: 10px;
+    float: left;
+}
+.icon2:hover{ 
+    background-color:grey;
+}
+.php{
+    font-size: 60px;
+    text-align: center;
+}
+.icon3{
+    background-color:coral ;
+    width: 25%;
+    height:300px;
+    border-radius: 10%;
+    margin: 40px;
+    padding: 10px;
+    float: left;
+
+}
+.icon3:hover{ 
+    background-color:grey
+}
+.square{
+    font-size: 70px;
+    text-align: center;
+}
+.htmlbar{
+    width: 40%;
+    height:25px;
+    background-color: grey;
+}
+.progressbar1{
+    width: 60%;
+    height:25px;
+    background-color: green;
+}
+.pbar{
+    clear: both;
+}
+.icon4{
+    background-color: coral;
+    width: 25%;
+    height: 350px;
+    border-radius: 10%;
+    margin: 40px;
+    padding: 10px;
+    float: left;
+}
+.icon4:hover{
+    background-color: grey;
+}
+.code{
+    font-size: 80px;
+    text-align: center;
+}
+.icon5{
+    background-color: coral;
+    width: 25%;
+    height: 350px;
+    float: left;
+    margin:40px;
+    padding: 10px;
+    border-radius: 10%;
+}
+.icon5:hover{
+    background-color: grey;
+}

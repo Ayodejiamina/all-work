@@ -1,0 +1,43 @@
+ul{
+    list-style-type: none; 
+    background-color: coral;
+    overflow:hidden;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    display: inline-block;
+    padding:  14px 50px;
+    float: left;
+}
+li a{
+    text-decoration: none;
+    color: cornflowerblue;
+    display: inline-block;
+}
+a:hover{
+    background-color: orchid;
+    border-radius: 15%;
+}
+.first{
+  display: none;
+  position: absolute;
+  background-color: aqua;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.first a{
+  display: block;
+  padding: 10px;
+  color: red;
+  text-align: left;
+}
+.first a:hover{
+  background-color: aliceblue;
+}
+
+.dropdown:hover .first{
+  display: block;
+}

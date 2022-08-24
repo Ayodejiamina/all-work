@@ -1,0 +1,30 @@
+.about{
+    position: relative;
+font-size: 35px;
+text-align:center;
+color: white;
+}
+.abs{
+    background-image:url("images/wedding_location.jpg");
+    position: absolute;
+    background-size:cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+.html1{
+    background-image: url(images/tablesetting2.jpg);
+    background-repeat:no-repeat;
+    position:absolute;
+    background-size:cover;
+    height: 550px;
+    width:100%;
+    background-position: center;
+}
+.html2{
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    
+}
